@@ -1,0 +1,102 @@
+/* 初始化 */
+html,
+body{
+    margin:0;
+}
+
+.content{
+    background-color:rgb(193,193,193);
+    width:650px;
+    height:400px;
+    margin:100px auto auto auto;
+
+    display:flex;
+    border-radius:8px;
+    overflow:hidden;
+
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    line-height: 1.5715;
+}
+.content-left{
+    background:linear-gradient(to right bottom, rgb(49, 70, 90) 0%, rgb(58, 103, 134) 100%);
+    flex-basis:50%;
+    padding:36px;
+}
+
+.content-right{
+    background:#fff;
+    flex-basis:50%;
+
+    padding:36px;
+}
+
+.content-left h3{
+    color:black;
+    font-size: 18px;
+    color:#fff;
+    padding-bottom: 40px;
+    margin:0;
+}
+
+.content-left-item{
+    color:#fff;
+}
+
+.content-left-item-title svg{
+    color:#04cf4c;
+    margin-right: 6px;
+}
+.content-left-item-title{
+    font-size:16px;
+    margin-bottom:4px;
+    display:flex;
+    align-items:center;
+}
+.content-left-item-disc{
+    font-size:14px;
+    margin-bottom:16px;
+}
+
+
+.content-right h3{
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin:0px;
+}
+.content-right p{
+    color: #999;
+    font-size: 12px;
+    padding-bottom: 24px;
+    margin:0px;
+}
+button {
+    margin-top:24px;
+    letter-spacing: 5px;
+    width:100%;
+    border:none;
+}
+button:hover{
+    background:#e1e1e1;
+    cursor:pointer;
+}
+.inputer{
+    display:flex;
+    align-items:center;
+    padding-bottom:8px;
+}
+.inputer_input{
+    flex-basis:80%;
+}
+.inputer_text{
+    flex-basis:20%;
+    font-size:14px;
+    padding-left:8px;
+}
+.inputer_input input{
+    background-color:#e1e1e1;
+    border:none;
+    outline:none;
+    padding:8px;
+}
